@@ -31,7 +31,7 @@ export function AboutPage() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6">
-            The Chidera Story
+            The Zee Fashion Story
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             A legacy of craftsmanship, dedication, and service to Nigerian
@@ -53,7 +53,7 @@ export function AboutPage() {
               </h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in 2008 in Enugu State, Chidera Garment Industry began
+                  Founded in 2008 in Lagos State, Zee Fashion began
                   with a simple mission: to provide schools and institutions
                   with uniforms that don't just look good, but last.
                 </p>
@@ -144,7 +144,7 @@ export function AboutPage() {
             Let us help you create a lasting impression with garments that speak
             quality.
           </p>
-          <Link to="/contact">
+          <Link to="/quote">
             <Button variant="primary" size="lg">
               Work With Us
             </Button>

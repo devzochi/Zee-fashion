@@ -35,7 +35,7 @@ const galleryImages = [
 },
 {
   id: 6,
-  src: 'https://images.unsplash.com/photo-1551651766-2c6d7175b8e9?w=800&q=80',
+  src: 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=800&auto=format&fit=crop&q=80',
   category: 'Medical Wears',
   title: 'Doctor Uniform'
 },

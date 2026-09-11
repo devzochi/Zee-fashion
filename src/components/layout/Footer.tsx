@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link to="/" className="inline-block">
               <span className="font-serif text-2xl font-bold tracking-wider text-white">
-                CHIDERA
+                ZEE FASHION
                 <span className="text-gold">.</span>
               </span>
             </Link>
@@ -72,10 +72,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/quote"
                   className="text-gray-400 hover:text-white transition-colors text-sm">
 
-                  Contact Us
+                  Get a Quote
                 </Link>
               </li>
             </ul>
@@ -122,12 +122,12 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-gold font-serif text-lg mb-6">Contact Us</h3>
+            <h3 className="text-gold font-serif text-lg mb-6">Get a Quote</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-gold shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm">
-                  Enugu State, Nigeria
+                  Lagos State, Nigeria
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -137,7 +137,7 @@ export function Footer() {
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-gold shrink-0" />
                 <span className="text-gray-400 text-sm">
-                  info@chideragarments.com
+                  info@zeefashion.com
                 </span>
               </li>
             </ul>
@@ -146,7 +146,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} Chidera Garment Industry. All rights reserved.
+            © {currentYear} Zee Fashion. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <span className="text-gray-600 text-xs">Privacy Policy</span>

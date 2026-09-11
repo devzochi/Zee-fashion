@@ -71,7 +71,7 @@ export function WhySchoolsPage() {
           <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
             Why Leading Schools
             <br />
-            Choose Chidera
+            Choose Zee Fashion
           </h1>
           <p className="text-xl text-gray-300">
             We don't just make uniforms; we build long-term partnerships that
@@ -130,14 +130,14 @@ export function WhySchoolsPage() {
               "
             </div>
             <p className="text-lg text-gray-700 italic mb-6 relative z-10">
-              Chidera Garment Industry transformed how our students look. The
+              Zee Fashion transformed how our students look. The
               quality of the uniforms has significantly improved our school's
               image, and their delivery is always on time for the new session.
             </p>
             <div>
               <div className="font-bold text-navy">Mrs. N. Okonkwo</div>
               <div className="text-sm text-gray-500">
-                Proprietress, Grace International School, Enugu
+                Proprietress, Grace International School, Lagos
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export function WhySchoolsPage() {
           <h2 className="text-3xl font-serif font-bold text-navy mb-6">
             Ready to Upgrade Your School's Look?
           </h2>
-          <Link to="/contact">
+          <Link to="/quote">
             <Button variant="primary" size="lg">
               Schedule a Consultation
             </Button>

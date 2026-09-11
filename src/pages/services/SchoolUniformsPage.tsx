@@ -142,7 +142,7 @@ export function SchoolUniformsPage() {
           <h2 className="text-3xl font-serif font-bold text-navy mb-6">
             Equip Your Students with the Best
           </h2>
-          <Link to="/contact">
+          <Link to="/quote">
             <Button variant="primary" size="lg">
               Request a Quote for Your School
             </Button>

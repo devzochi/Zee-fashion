@@ -47,8 +47,8 @@ export function MedicalWearsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <img
-                src="https://images.unsplash.com/photo-1551651766-2c6d7175b8e9?w=800&auto=format&fit=crop&q=60"
-                alt="Doctor in lab coat"
+                src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=800&auto=format&fit=crop&q=80"
+                alt="Healthcare professional in medical uniform"
                 className="w-full rounded-lg shadow-xl" />
 
             </div>
@@ -124,7 +124,7 @@ export function MedicalWearsPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/contact">
+            <Link to="/quote">
               <Button variant="primary" size="lg">
                 Order Medical Wears
               </Button>

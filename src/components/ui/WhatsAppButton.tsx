@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 export function WhatsAppButton() {
   const phoneNumber = '2348000000000'; // Replace with actual number
   const message = encodeURIComponent(
-    "Hello, I found Chidera Garment Industry through your website and I'd like to make an inquiry."
+    "Hello, I found Zee Fashion through your website and I'd like to make an inquiry."
   );
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
   return (

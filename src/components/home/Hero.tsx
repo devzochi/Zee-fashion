@@ -97,24 +97,6 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 30
-          }}
-          animate={{
-            opacity: 1,
-            y: 0
-          }}
-          transition={{
-            duration: 0.8,
-            delay: 0.2
-          }}>
-
-          <span className="inline-block py-1 px-3 rounded-full bg-gold/10 text-gold border border-gold/20 text-sm font-medium tracking-wide mb-6">
-            EST. 2008 • ENUGU, NIGERIA
-          </span>
-        </motion.div>
 
         <motion.h1
           initial={{
@@ -169,7 +151,7 @@ export function Hero() {
           }}
           className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
 
-          <Link to="/contact">
+          <Link to="/quote">
             <Button
               variant="primary"
               size="lg"

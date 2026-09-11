@@ -9,13 +9,13 @@ export function CTASection() {
           Ready to Elevate Your Institution's Image?
         </h2>
         <p className="text-xl text-gray-600 mb-10 leading-relaxed">
-          Partner with Chidera Garment Industry for premium quality, timely
+          Partner with Zee Fashion for premium quality, timely
           delivery, and professional service that scales with your needs.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link to="/contact">
+          <Link to="/quote">
             <Button variant="primary" size="lg" withArrow>
-              Get in Touch
+              Get a Quote
             </Button>
           </Link>
           <a href="tel:+2348000000000">

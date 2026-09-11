@@ -9,7 +9,7 @@ import { AnimatePresence } from 'framer-motion';
 import { Layout } from './components/layout/Layout';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
-import { ContactPage } from './pages/ContactPage';
+import { QuotePage } from './pages/QuotePage';
 import { GalleryPage } from './pages/GalleryPage';
 import { WhySchoolsPage } from './pages/WhySchoolsPage';
 import { SchoolUniformsPage } from './pages/services/SchoolUniformsPage';
@@ -22,7 +22,7 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/quote" element={<QuotePage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/why-schools" element={<WhySchoolsPage />} />
         <Route

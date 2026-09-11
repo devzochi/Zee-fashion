@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../components/ui/Button';
-import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
-export function ContactPage() {
+import { MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+export function QuotePage() {
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -57,7 +57,7 @@ export function ContactPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-serif font-bold text-navy mb-4">
-            Get in Touch
+            Request a Quote
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ready to discuss your requirements? We're here to help you find the
@@ -69,7 +69,7 @@ export function ContactPage() {
           {/* Contact Info */}
           <div>
             <h2 className="text-2xl font-serif font-bold text-navy mb-8">
-              Contact Information
+              Quote Information
             </h2>
 
             <div className="space-y-8">
@@ -82,7 +82,7 @@ export function ContactPage() {
                   <p className="text-gray-600">
                     123 Industrial Layout,
                     <br />
-                    Enugu State, Nigeria
+                    Lagos State, Nigeria
                   </p>
                 </div>
               </div>
@@ -104,8 +104,8 @@ export function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-navy text-lg mb-1">Email Us</h3>
-                  <p className="text-gray-600">info@chideragarments.com</p>
-                  <p className="text-gray-600">sales@chideragarments.com</p>
+                  <p className="text-gray-600">info@zeefashion.com</p>
+                  <p className="text-gray-600">sales@zeefashion.com</p>
                 </div>
               </div>
 
@@ -126,7 +126,7 @@ export function ContactPage() {
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-100">
             <h2 className="text-2xl font-serif font-bold text-navy mb-6">
-              Send us a Message
+              Tell Us About Your Order
             </h2>
 
             {isSuccess ?

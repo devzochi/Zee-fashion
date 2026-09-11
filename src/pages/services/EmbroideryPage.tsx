@@ -61,7 +61,7 @@ export function EmbroideryPage() {
                 <li>Large Format Embroidery</li>
               </ul>
               <div className="mt-8">
-                <Link to="/contact">
+                <Link to="/quote">
                   <Button variant="primary">Get Custom Branding</Button>
                 </Link>
               </div>

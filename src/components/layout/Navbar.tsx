@@ -56,10 +56,7 @@ export function Navbar() {
     name: 'Why Schools',
     path: '/why-schools'
   },
-  {
-    name: 'Contact',
-    path: '/contact'
-  }];
+  ];
 
   const isHome = location.pathname === '/';
   return (
@@ -73,7 +70,7 @@ export function Navbar() {
             <span
               className={`font-serif text-2xl font-bold tracking-wider ${isScrolled || !isHome ? 'text-white' : 'text-white'}`}>
 
-              CHIDERA
+              ZEE FASHION
               <span className="text-gold">.</span>
             </span>
           </Link>
@@ -138,7 +135,7 @@ export function Navbar() {
               }
               </div>
             )}
-            <Link to="/contact">
+            <Link to="/quote">
               <motion.button
                 whileHover={{
                   scale: 1.05
@@ -223,7 +220,7 @@ export function Navbar() {
                 </div>
             )}
               <div className="pt-6 border-t border-white/10">
-                <Link to="/contact" className="block w-full">
+                <Link to="/quote" className="block w-full">
                   <button className="w-full py-3 bg-gold text-navy font-bold rounded-sm hover:bg-gold-light transition-colors">
                     Get a Quote
                   </button>
