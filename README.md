@@ -44,53 +44,13 @@
 ### Install and run
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/devzochi/Zee-fashion.git
 npm install
 npm run dev
 ```
 
 Vite will show the local URL in the terminal—typically `http://localhost:5173`.
 
-### Available commands
-
-```bash
-npm run dev      # Start the development server
-npm run build    # Generate a production build
-npm run preview  # Preview the production build locally
-npm run lint     # Run ESLint across the project
-```
-
-## Application structure
-
-```text
-src/
-├── components/
-│   ├── home/       # Homepage sections: hero, services, gallery, CTA
-│   ├── layout/     # Navbar, footer, page layout, scroll behaviour
-│   └── ui/         # Shared Button and WhatsApp components
-├── pages/
-│   ├── services/   # Service-specific landing pages
-│   ├── QuotePage.tsx
-│   ├── GalleryPage.tsx
-│   ├── AboutPage.tsx
-│   └── WhySchoolsPage.tsx
-├── App.tsx         # Router and animated route configuration
-├── index.css       # Global styles and Tailwind layers
-└── index.tsx       # Application entry point
-```
-
-## Routes
-
-| Path | Purpose |
-| --- | --- |
-| `/` | Homepage and primary brand experience |
-| `/about` | Brand story and mission |
-| `/quote` | Quote-request form and business contact details |
-| `/gallery` | Filterable garment portfolio |
-| `/why-schools` | Value proposition for educational institutions |
-| `/services/school-uniforms` | School uniform service |
-| `/services/medical-wears` | Medical and laboratory attire service |
-| `/services/embroidery` | Embroidery and branding service |
 
 ## Design and implementation notes
 
